@@ -1,0 +1,50 @@
+#N canvas 241 151 559 514 12;
+#X floatatom 61 125 5 0 0 0 - - -;
+#X msg 61 53 5;
+#X msg 61 171 hello!;
+#X obj 61 207 print;
+#X obj 61 89 + 7;
+#X text 141 49 <-- message;
+#X text 141 88 <-- object;
+#X text 141 127 <-- number;
+#X text 141 166 <-- message;
+#X text 141 205 <-- object;
+#X obj 297 52 tgl 25 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X floatatom 297 94 5 0 0 0 - - -;
+#X text 351 91 <-- number;
+#X text 348 51 <-- toggle;
+#X obj 301 168 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 8000 1;
+#X obj 298 235 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 8000 1;
+#X floatatom 298 198 5 0 0 0 - - -;
+#X obj 141 294 vradio 15 1 0 8 empty empty empty 0 -8 0 10 -262144
+-1 -1 1;
+#X obj 78 268 hradio 15 1 0 8 empty empty empty 0 -8 0 10 -262144 -1
+-1 1;
+#X floatatom 78 300 5 0 0 0 - - -;
+#X obj 362 303 bng 25 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 362 342 random 10;
+#X floatatom 362 379 5 0 0 0 - - -;
+#X text 212 263 <-- Hradio;
+#X text 49 356 Vradio -->;
+#X text 390 200;
+#X text 445 163 <-- Hslider;
+#X text 327 238 <-- Vslider;
+#X text 406 301 <-- Bang;
+#X text 441 339 <-- object;
+#X text 77 446 Aby wyświetlić listę wszystkich obiektów;
+#X text 79 466 kliknij prawym klawiszem na pustym polu i wybierz "Help"
+;
+#X connect 1 0 4 0;
+#X connect 2 0 3 0;
+#X connect 4 0 0 0;
+#X connect 10 0 11 0;
+#X connect 14 0 16 0;
+#X connect 16 0 15 0;
+#X connect 18 0 19 0;
+#X connect 19 0 17 0;
+#X connect 20 0 21 0;
+#X connect 21 0 22 0;

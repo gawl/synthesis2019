@@ -1,0 +1,17 @@
+#N canvas 579 159 525 319 24;
+#X obj 69 232 dac~;
+#X obj 150 139 tgl 25 0 empty empty empty 17 7 0 10 -204786 -1 -1 0
+0.5;
+#X obj 69 185 *~;
+#X obj 69 138 osc~;
+#X obj 69 91 mtof;
+#X obj 69 44 qwerty;
+#X text 158 43 <--- kliknij prawym przyciskiem;
+#X text 210 72 - wybierz "Open";
+#X connect 1 0 2 1;
+#X connect 2 0 0 0;
+#X connect 2 0 0 1;
+#X connect 3 0 2 0;
+#X connect 4 0 3 0;
+#X connect 5 0 4 0;
+#X connect 5 1 1 0;
